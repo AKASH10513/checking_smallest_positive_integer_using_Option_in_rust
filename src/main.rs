@@ -10,7 +10,9 @@ fn is_positive_integer_present(arr: &Vec<i32>) -> Option<i32> {
     
     if min_positive != std::i32::MAX {
         return Some(min_positive);
-    } else {
+    }
+    else 
+    {
         return None;
     }
 }
